@@ -1,0 +1,9 @@
+.element {
+  width: 100%;
+  padding: 20px;
+  transform: none;
+  
+}
+.flex {
+  display: flex;
+}

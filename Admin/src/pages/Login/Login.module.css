@@ -1,0 +1,67 @@
+.container {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background: #fff;
+}
+
+.FormContainer {
+  place-self: center;
+  width: 400px;
+  color: #808080;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 7px 9px 24px 0px rgb(0,0,0,0.2);
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputContainer input {
+  outline: none;
+  border: 1px solid #c9c9c9;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.FormContainer button {
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background: linear-gradient(180deg, #1cc88a 10%, #1b6ec2 100%);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.container p span {
+  color: tomato;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.inputContainer .icon {
+  position: absolute;
+  right: calc(1.35rem + 2px);
+  top: 50%;
+  transform: translateY(-50%);
+}
